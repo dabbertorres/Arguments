@@ -43,6 +43,9 @@ namespace dbr
 				args += ' ';
 			}
 			
+			// reset showHelp if needed.
+			showHelp = false;
+
 			std::sregex_iterator resultsIt{args.begin(), args.end(), argsRegex, std::regex_constants::match_not_null};
 			std::sregex_iterator resultsEnd;
 
