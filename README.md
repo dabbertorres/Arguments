@@ -1,5 +1,6 @@
 # Arguments
 Command line argument handling for C++
+Requires a C++ 14 compliant compiler.
 
 # Usage
 Create an instance of ```dbr::util::Arguments```, providing a help message title if desired.
@@ -15,3 +16,4 @@ Then, call ```dbr::util::Arguments::run```, providing ```argc```, ```argv```, an
 Your functions provided in calls to ```dbr::util::Arguments::add``` will be called for each found argument. Use these to set any variables for your program, etc.
 
 Done!
+See main.cpp for some details if desired.
